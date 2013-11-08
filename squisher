@@ -26,7 +26,7 @@ if [ -z "$OUT" -o ! -d "$OUT" ]; then
 fi
 
 OTAPACKAGE1=$OUT/PureSpeedX_${TARGET_PRODUCT}_ota_$(date +"%Y-%m-%d").zip
-OTAPACKAGE2=$OUT/full_mako-ota-eng.user.zip
+OTAPACKAGE2=$OUT/aosp_mako-ota-eng.user.zip
 
 if [ -f $OTAPACKAGE1 ]
 then
